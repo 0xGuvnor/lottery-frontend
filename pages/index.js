@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
 import LotteryEntrance from "../components/LotteryEntrance";
 import Footer from "../components/Footer";
+import Instructions from "../components/Instructions";
 // import { Hero } from "web3uikit";
 
 export default function Home() {
@@ -21,9 +22,7 @@ export default function Home() {
 
             <Header />
             <LotteryEntrance />
-            <div className="border-blue-700 border-t-2 p5 font-sans px-4">
-                <h1 className="text-xl">Instructions</h1>
-            </div>
+            <Instructions />
             <Footer />
         </div>
         // </Hero>
