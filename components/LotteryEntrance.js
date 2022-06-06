@@ -79,7 +79,17 @@ export default function LotteryEntrance() {
             message: "Transaction Complete!",
             title: "Tx Notification",
             position: "topR",
-            icon: "bell",
+            icon: "metamask",
+        });
+    };
+
+    const handlePendingNotification = () => {
+        dispatch({
+            type: "info",
+            message: "Transaction Submitted...",
+            title: "Tx Notification",
+            position: "topR",
+            icon: "metamask",
         });
     };
 
@@ -92,6 +102,7 @@ export default function LotteryEntrance() {
                         onClick={async () =>
                             await enterLottery({
                                 onSuccess: handleSuccess,
+                                onComplete: handlePendingNotification,
                                 onError: (error) => console.log(error),
                             })
                         }
