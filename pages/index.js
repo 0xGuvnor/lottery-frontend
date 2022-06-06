@@ -4,24 +4,24 @@ import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
 import LotteryEntrance from "../components/LotteryEntrance";
 import Footer from "../components/Footer";
-import { Hero } from "web3uikit";
+// import { Hero } from "web3uikit";
 
 export default function Home() {
     return (
-        <Hero
-            backgroundURL="https://moralis.io/wp-content/uploads/2021/06/blue-blob-background-2.svg"
-            height="950px"
-        >
-            <div className="pb-80">
-                <Head>
-                    <title>LottFi - Decentralized Lottery</title>
-                    <meta name="description" content="Smart Contract Lottery" />
-                    <link rel="icon" href="/favicon.ico" />
-                </Head>
-                <Header />
-                <LotteryEntrance />
-                <Footer />
-            </div>
-        </Hero>
+        // <Hero
+        //     backgroundURL="https://moralis.io/wp-content/uploads/2021/06/blue-blob-background-2.svg"
+        //     height="950px"
+        // >
+        <div className="pb-80">
+            <Head>
+                <title>LottFi - Decentralized Lottery</title>
+                <meta name="description" content="Smart Contract Lottery" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+            <Header />
+            <LotteryEntrance />
+            <Footer />
+        </div>
+        // </Hero>
     );
 }
