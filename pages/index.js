@@ -12,14 +12,18 @@ export default function Home() {
         //     backgroundURL="https://moralis.io/wp-content/uploads/2021/06/blue-blob-background-2.svg"
         //     height="950px"
         // >
-        <div className="pb-80">
+        <div className="bg-repeat bg-gradient-to-t from-indigo-50 to-blue-500">
             <Head>
                 <title>LottFi - Decentralized Lottery</title>
                 <meta name="description" content="Smart Contract Lottery" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+
             <Header />
             <LotteryEntrance />
+            <div className="border-blue-700 border-t-2 p5 font-sans px-4">
+                <h1 className="text-xl">Instructions</h1>
+            </div>
             <Footer />
         </div>
         // </Hero>

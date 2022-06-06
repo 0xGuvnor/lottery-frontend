@@ -98,6 +98,7 @@ export default function LotteryEntrance() {
             {lotteryAddress ? (
                 <div className="mt-1">
                     <Button
+                        className="shadow-md shadow-indigo-500/50"
                         size="large"
                         onClick={async () =>
                             await enterLottery({
