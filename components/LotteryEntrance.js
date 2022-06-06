@@ -128,9 +128,15 @@ export default function LotteryEntrance() {
                             <div>Enter Lottery</div>
                         )}
                     </button> */}
-                    <div>Entrance Fee: {ethers.utils.formatEther(entranceFee)} tBNB</div>
-                    <div>Number of Players: {numPlayers}</div>
-                    <div>Recent Winner: {recentWinner}</div>
+                    <div>
+                        Entrance Fee: <strong>{ethers.utils.formatEther(entranceFee)} tBNB</strong>
+                    </div>
+                    <div>
+                        Number of Players: <strong>{numPlayers}</strong>
+                    </div>
+                    <div>
+                        Recent Winner: <strong>{recentWinner}</strong>
+                    </div>
                 </div>
             ) : (
                 <div>Oops! No Lottery Address Detected 🫠</div>
