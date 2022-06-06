@@ -125,7 +125,9 @@ export default function LotteryEntrance() {
                 <div>Oops! No Lottery Address Detected 🫠</div>
             )}
             <div className="border-t-2 p-1 flex flex-row text-sky-700">
-                <a href="https://faucets.chain.link/">Get free testnet tokens</a>
+                <a href="https://faucets.chain.link/" target="_blank" rel="noopener noreferrer">
+                    Get free testnet tokens
+                </a>
             </div>
         </div>
     );
