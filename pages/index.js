@@ -4,18 +4,25 @@ import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
 import LotteryEntrance from "../components/LotteryEntrance";
 import Footer from "../components/Footer";
+import { Hero } from "web3uikit";
 
 export default function Home() {
     return (
-        <div className={styles.container}>
-            <Head>
-                <title>LottFi - Decentralized Lottery</title>
-                <meta name="description" content="Smart Contract Lottery" />
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
-            <Header />
-            <LotteryEntrance />
-            <Footer />
-        </div>
+        <Hero
+            backgroundURL="https://moralis.io/wp-content/uploads/2021/06/blue-blob-background-2.svg"
+            align="center"
+            height="950px"
+        >
+            <div className={styles.container}>
+                <Head>
+                    <title>LottFi - Decentralized Lottery</title>
+                    <meta name="description" content="Smart Contract Lottery" />
+                    <link rel="icon" href="/favicon.ico" />
+                </Head>
+                <Header />
+                <LotteryEntrance />
+                <Footer />
+            </div>
+        </Hero>
     );
 }

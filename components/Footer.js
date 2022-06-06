@@ -8,7 +8,7 @@ export default function Footer() {
             </div>
             <div className="flex flex-row text-sky-700">
                 <a href="https://chainlist.org/" target="_blank" rel="noopener noreferrer">
-                    Add BSC Testnet to MetaMask
+                    Add BSC Testnet to your MetaMask
                 </a>
             </div>
         </div>
