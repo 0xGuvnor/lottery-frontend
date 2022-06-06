@@ -13,7 +13,7 @@ export default function Home() {
         //     backgroundURL="https://moralis.io/wp-content/uploads/2021/06/blue-blob-background-2.svg"
         //     height="950px"
         // >
-        <div className="bg-repeat bg-gradient-to-t from-indigo-50 to-blue-500">
+        <div className="bg-repeat bg-gradient-to-tr from-indigo-50 to-blue-500">
             <Head>
                 <title>LottFi - Decentralized Lottery</title>
                 <meta name="description" content="Smart Contract Lottery" />
