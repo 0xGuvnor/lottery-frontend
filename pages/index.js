@@ -10,7 +10,6 @@ export default function Home() {
     return (
         <Hero
             backgroundURL="https://moralis.io/wp-content/uploads/2021/06/blue-blob-background-2.svg"
-            align="center"
             height="950px"
         >
             <div className="pb-80">
