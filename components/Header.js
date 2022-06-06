@@ -1,12 +1,14 @@
-import { ConnectButton, CryptoLogos } from "web3uikit";
+import { ConnectButton, CryptoLogos, Typography } from "web3uikit";
 
 export default function Header() {
     return (
-        <div className="border-b-2 p-5 flex flex-row">
+        <div className="border-b-2 p-8 flex flex-row">
             <div className="mt-1">
                 <CryptoLogos chain="binance" size="48px" />
             </div>
-            <h1 className="py-3 px-4 font-blog text-3xl">LottFi</h1>
+            <div className="pt-1.5">
+                <Typography variant="h1">LottFi</Typography>
+            </div>
             <div className="ml-auto py-2 px-4">
                 <ConnectButton />
             </div>

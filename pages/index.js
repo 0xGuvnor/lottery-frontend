@@ -13,7 +13,7 @@ export default function Home() {
             align="center"
             height="950px"
         >
-            <div className={styles.container}>
+            <div className="pb-80">
                 <Head>
                     <title>LottFi - Decentralized Lottery</title>
                     <meta name="description" content="Smart Contract Lottery" />

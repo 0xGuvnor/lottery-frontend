@@ -94,7 +94,7 @@ export default function LotteryEntrance() {
     };
 
     return (
-        <div className="p5 font-sans">
+        <div className="p5 font-sans py-4">
             {lotteryAddress ? (
                 <div className="mt-1">
                     <Button
