@@ -117,7 +117,7 @@ export default function LotteryEntrance() {
                             <div>Enter Lottery</div>
                         )}
                     </button> */}
-                    <div>Entrance Fee: {ethers.utils.formatEther(entranceFee)} ETH</div>
+                    <div>Entrance Fee: {ethers.utils.formatEther(entranceFee)} tBNB</div>
                     <div>Number of Players {numPlayers}</div>
                     <div>Recent Winner: {recentWinner}</div>
                 </div>
