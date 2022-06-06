@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 // import Header from "../components/ManualHeader";
 import Header from "../components/Header";
 import LotteryEntrance from "../components/LotteryEntrance";
+import Footer from "../components/Footer";
 
 export default function Home() {
     return (
@@ -14,6 +15,7 @@ export default function Home() {
             </Head>
             <Header />
             <LotteryEntrance />
+            <Footer />
         </div>
     );
 }
